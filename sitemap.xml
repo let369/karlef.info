@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <changefreq>weekly</changefreq>
+        <loc>https://www.karlef.info/</loc>
+        <priority>1.0</priority>
+        <lastmod>2018-12-03T19:55:57+00:00</lastmod>
+    </url>
+    <url>
+        <changefreq>weekly</changefreq>
+        <loc>https://www.karlef.info/portfolio</loc>
+        <priority>1.0</priority>
+        <lastmod>2018-12-03T19:55:57+00:00</lastmod>
+    </url>
+    <url>
+        <changefreq>weekly</changefreq>
+        <loc>https://www.karlef.info/about</loc>
+        <priority>1.0</priority>
+        <lastmod>2018-12-03T19:55:57+00:00</lastmod>
+    </url>
+</urlset>

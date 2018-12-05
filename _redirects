@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to primary domain
+https://karlef.netlify.com/* https://www.karlef.info/:splat 301!
