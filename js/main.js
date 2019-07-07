@@ -50,17 +50,6 @@ function triggerMenu() {
   }
 }
 
-
-//EXPERIMENTAL
-// window.onscroll = function() {myFunction()};
-//
-// function myFunction() {
-//   var winScroll = document.body.scrollTop;
-//   var height = document.body.scrollHeight - document.body.clientHeight;
-//   var scrolled = (winScroll / height) * 100;
-//   document.getElementById("myBar").style.width = scrolled + "%";
-// }
-
 function switchTab(item) {
   if(!item.classList.contains("active")){
     const tabsList = $("#content-tabs")[0].getElementsByClassName("nav-link");

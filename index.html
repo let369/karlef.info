@@ -25,9 +25,16 @@
     <title>Kar Lef | Home</title>
     <link rel="icon" href="images/brain.png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Kar Lef">
-    <meta name="description" content="Personal site to connect and motivate. Kar Lef">
-    <meta name="google-site-verification" content="Plog6JaqobfS2iVXyFTIVuqxWuy_QD0biXdz-tuJ2tQ" />
+    <meta name="author" content="Karamoulas Eleftherios">
+    <meta name="description" content="My personal website to inspire and connect. A place to share my thoughts and ideas. Hosting a blog in the near future.">
+    <meta name="google-site-verification" content="Plog6JaqobfS2iVXyFTIVuqxWuy_QD0biXdz-tuJ2tQ"/>
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Kar Lef - Home"/>
+    <meta property="og:type" content="article"/>
+    <meta property="og:url" content="https://www.karlef.info/"/>
+    <meta property="og:image" content="https://www.karlef.info/images/brain.png"/>
+    <meta property="og:description"
+          content="My personal website to inspire and connect. A place to share my thoughts and ideas. Hosting a blog in the near future."/>
 </head>
 <body>
 <header class="position-relative">
@@ -35,7 +42,6 @@
         <div class="row" style="min-height: 60px">
             <div class="logo-div col-9 col-md-3 col-lg-2 border-right border-dark d-flex">
                 <a class="m-auto" href="/">
-                    <!--<img width="100%" src="images/logo2.png" alt="Kar Lef"/>-->
                     <picture>
                         <source type="image/webp" srcset="images/logo.webp">
                         <source type="image/png" srcset="images/logo.png">
@@ -50,17 +56,18 @@
                 <a class="menu-item text-dark" href="index.html">HOME</a>
                 <a class="menu-item text-dark" href="portfolio.html">PORTFOLIO</a>
                 <a class="menu-item text-dark" href="about.html">ABOUT</a>
+                <a class="menu-item text-dark" href="blog.html">BLOG</a>
             </div>
             <!-- Modal -->
             <div id="myModal" class="modal fade" role="dialog">
-                <div class="modal-dialog" style="max-height:700px; max-width:850px !important;">
+                <div class="modal-dialog modal-lg" style="max-width:75% !important;">
                     <div class="modal-content">
                         <div class="modal-body text-center">
                             <h3 class="d-inline-block mb-3 mt-2 text-dark">The dose of inspiration you require</h3>
                             <button type="button" class="close" data-dismiss="modal"
                                     style="outline: none; font-size: 40px">&times;
                             </button>
-                            <iframe id="modal-vid" class="h-100vh" width="100%" src=""
+                            <iframe id="modal-vid" height="500" width="100%" src=""
                                     frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                         </div>
                     </div>
@@ -71,9 +78,6 @@
     <button class="play-button" data-toggle="modal" data-target="#myModal" style="left: 80%;
     bottom: -15%"></button>
 </header>
-<!--<div class="progress-container">-->
-<!--<div class="progress-bar" id="myBar"></div>-->
-<!--</div>-->
 <main>
     <div class="top-banner d-flex">
         <div class="row m-0">
@@ -85,10 +89,6 @@
                     vibe
                     of positivity and exhortation to try and start something new.</p>
             </div>
-            <!--<div class="col-12 text-right align-self-end pr-5">-->
-            <!--<p>Life shrinks and expands on the proportion<br> of your willingness to take risks and try new things.</p>-->
-            <!--<p>-Gary Vaynerchuk</p>-->
-            <!--</div>-->
         </div>
     </div>
     <div class="" style="margin-top: 80px; margin-bottom: 80px">
@@ -294,6 +294,7 @@
                 <a class="flink slider" href="index.html">HOME</a>
                 <a class="flink slider" href="portfolio.html">PORTFOLIO</a>
                 <a class="flink slider" href="about.html">ABOUT</a>
+                <a class="flink slider" href="blog.html">BLOG</a>
             </div>
             <div class="col-md-4 mb-5">
                 <h3 class="text-white">Contact Info</h3>
@@ -333,7 +334,7 @@
                 <hr>
                 <div class="social-media">
                     <h5 id="dynamic" class="d-none d-lg-block">{{action}} me on</h5>
-                    <a class="social-link pr-1" href="https://www.linkedin.com/in/lefteris-karamoulas-b64a86120/"
+                    <a class="social-link pr-1" href="https://www.linkedin.com/in/lefteris-karamoulas/"
                        data-name="linkedin" data-action="Contact">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="#e2e8e4" width="35" height="35"
                              viewBox="0 0 24 24">
@@ -370,7 +371,7 @@
             </div>
         </div>
     </div>
-    <div class="text-center pb-3">© 2018 | KAR_LEF | ALL RIGHTS RESERVED</div>
+    <div class="text-center pb-3">© 2018-2019 | KAR_LEF | ALL RIGHTS RESERVED</div>
     <div id="go-up" class="go-up">
         <!--<img class="go-up-img lazyload" data-src="images/angle-double-up-solid.svg" alt="Go up"/>-->
         <picture>
@@ -399,8 +400,5 @@
     setVideoFrame();
   }
 </script>
-<!--<script async defer-->
-<!--src="https://maps.googleapis.com/maps/api/js?key=...&callback=initMap">-->
-<!--</script>-->
 </body>
 </html>
