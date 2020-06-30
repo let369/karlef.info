@@ -30,4 +30,10 @@
         <priority>1.0</priority>
         <lastmod>2019-02-18T19:55:57+00:00</lastmod>
     </url>
+    <url>
+        <changefreq>weekly</changefreq>
+        <loc>https://www.karlef.info/blog/england-calling</loc>
+        <priority>1.0</priority>
+        <lastmod>2020-06-20T19:55:57+00:00</lastmod>
+    </url>
 </urlset>
