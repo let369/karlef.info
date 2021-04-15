@@ -14,16 +14,16 @@
 
       gtag('config', 'UA-127338653-1');
     </script>
-    <link href="css/fonts.css" rel="stylesheet" media="all">
-    <link rel="stylesheet" href="css/main.css" media="all">
-    <link rel="stylesheet" href="css/bootstrap.min.css" media="all">
-    <link rel="stylesheet" href="css/bootstrap-grid.min.css" media="all">
-    <link rel="stylesheet" href="css/bootstrap-reboot.min.css" media="all">
-    <link href="fa/css/fa.css" rel="stylesheet" media="all">
+    <link href="../css/fonts.css" rel="stylesheet" media="all">
+    <link rel="stylesheet" href="../css/main.css" media="all">
+    <link rel="stylesheet" href="../css/bootstrap.min.css" media="all">
+    <link rel="stylesheet" href="../css/bootstrap-grid.min.css" media="all">
+    <link rel="stylesheet" href="../css/bootstrap-reboot.min.css" media="all">
+    <link href="../fa/css/fa.css" rel="stylesheet" media="all">
 
     <meta charset="utf-8">
-    <title>Kar Lef | Blog</title>
-    <link rel="icon" href="images/brain.png">
+    <title>Kar Lef | Why do we take life for granted</title>
+    <link rel="icon" href="../images/brain.png">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Karamoulas Eleftherios">
     <meta name="description" content="My personal website to inspire and connect. A place to share my thoughts and ideas. Hosting a blog in the near future.">
@@ -35,9 +35,9 @@
             <div class="logo-div col-9 col-md-3 col-lg-2 border-right border-dark d-flex">
                 <a class="m-auto" href="/">
                     <picture>
-                        <source type="image/webp" srcset="images/logo.webp">
-                        <source type="image/png" srcset="images/logo.png">
-                        <img width="100%" src="images/logo.png" alt="Kar Lef"/>
+                        <source type="image/webp" srcset="../images/logo.webp">
+                        <source type="image/png" srcset="../images/logo.png">
+                        <img width="100%" src="../images/logo.png" alt="Kar Lef"/>
                     </picture>
                 </a>
             </div>
@@ -45,10 +45,10 @@
 				<i class="fas fa-bars"></i>
 			</span>
             <div class="col-12 col-md-7 col-lg-8 top-menu d-flex" id="myTopnav">
-                <a class="menu-item text-dark" href="index.html">HOME</a>
-                <a class="menu-item text-dark" href="portfolio.html">PORTFOLIO</a>
-                <a class="menu-item text-dark" href="about.html">ABOUT</a>
-                <a class="menu-item text-dark" href="blog.html">BLOG</a>
+                <a class="menu-item text-dark" href="../index.html">HOME</a>
+                <a class="menu-item text-dark" href="../portfolio.html">PORTFOLIO</a>
+                <a class="menu-item text-dark" href="../about.html">ABOUT</a>
+                <a class="menu-item text-dark" href="../blog.html">BLOG</a>
             </div>
             <div class="col-12 col-md-2 col-lg-2">
                 <!--<button class="play-button" data-toggle="modal" data-target="#myModal">-->
@@ -74,61 +74,78 @@
     <button class="play-button" data-toggle="modal" data-target="#myModal" style="left: 80%;
     bottom: -15%"></button>
 </header>
+<div class="progress-container">
+    <div class="progress-bar" id="myBar"></div>
+</div>
 <main>
-    <div class="banner-bg-image text-center pt-5 pb-5">
-        <h5>BLOG</h5>
-        <h3 style="width: 70%;margin-left: auto;margin-right: auto">A section to express my thoughts and ideas and share my experiences with you.</h3>
-    </div>
-    <div class="container pt-5 pb-5">
-        <div class="row d-flex justify-content-around">
-            <div class="col-md-4 pl-3 pr-3 mb-3">
-                <a href="blog/why-do-we-take-life-for-granted.html" class="detail-card">
-                    <div class="card">
-                        <img class="card-img-top" src="https://res.cloudinary.com/karlef/image/upload/v1618514386/blog3/do-something-great_wyldfx.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h3 class="card-title">Why do we take life for granted?</h3>
-                            <p class="card-text text-secondary mb-2">
-                                An intertemporal question, now relevant more than ever.
-                            </p>
-                            <p class="min-read text-right text-secondary mb-0">x minutes read</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-4 pl-3 pr-3 mb-3">
-                <a href="blog/england-calling.html" class="detail-card">
-                    <div class="card">
-                        <img class="card-img-top" src="https://res.cloudinary.com/karlef/image/upload/v1592776434/blog2/piccadilly-circus.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h3 class="card-title">England calling</h3>
-                            <p class="card-text text-secondary mb-2">
-                                Jump on board! My first travel blog about one of Europe’s finest countries.
-                            </p>
-                            <p class="min-read text-right text-secondary mb-0">8 minutes read</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-4 pl-3 pr-3 mb-3">
-                <a href="blog/what-keeps-you-going-every-day.html" class="detail-card">
-                    <div class="card">
-                        <img class="card-img-top" src="https://res.cloudinary.com/karlef/image/upload/v1592760210/card-images/quotes_card.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h3 class="card-title">What keeps you going every day?</h3>
-                            <p class="card-text text-secondary mb-2">
-                                A simple idea to keep you joyful, positive and productive daily.
-                            </p>
-                            <p class="min-read text-right text-secondary mb-0">5 minutes read</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </div>
-
-    <div class="container text-center pb-4">
+    <div class="container text-center article-header"
+         style="background-image:
+         linear-gradient(to bottom right, rgba(207,217,223,0.67) , rgba(226,235,240,0.75) 70%),
+         url(https://res.cloudinary.com/karlef/image/upload/v1618514386/blog3/do-something-great_wyldfx.jpg)">
+        <h1>
+            Why do we take life for granted?
+        </h1>
+        <h5>
+            An intertemporal question, now relevant more than ever.
+        </h5>
         <hr>
-        <span class="text-secondary">1</span>
+        <p>xx-April-2021</p>
+    </div>
+    <div class="container article-content">
+        <p>
+            In the past year, I consciously started overthinking and overanalysing life as a concept. I have at all
+            times been questioning that, though last year, this became more intense. And the main reason, I assume, is
+            the drastic changes our lives have undergone and continue to do so. One by making the appropriate questions
+            and correct adjustments on this topic can go a long way. In my opinion, though, the bottom line is to feel
+            confident with yourself, be grateful for what you have in your life, appreciate the people that are part of
+            your journey and likewise be on their side.
+        </p>
+        <p>
+            However, it is evident and alerting that frequently we are incapable of appreciating and neglecting small
+            everyday humane gestures and interactions. Especially nowadays when the so invaluable in-person contact, be
+            it work, education or even entertainment has been digitalised on a high percentage we ought to cherish the
+            small things even more. Also, people tend to be inhibited around others and with what purpose?
+            If I were to ask you now, "How well do you know yourself?" think for a moment how clear and honest would be
+            the answer in your head? Why act towards people around us with ill-mannered when we can earn so much more
+            with solidarity from each other. Honestly, I can't emphasise enough the importance of self-acceptance and
+            the result this will have on you once achieved! Take the time and effort required to figure out yourself. It
+            will be a fascinating journey that will pay off to the fullest.
+        </p>
+        <p>
+            Another topic I would like to touch upon is the things we take for granted. Most notably our possessions,
+            health and loved ones. But also the non-essential diversions that overshadow what matters. For example,
+            short term happiness, senseless attention, self-value proof etc. In our modern society, weights seem to have
+            shifted from the former to the latter. We are keen on or even obsessed with buying stuff we don't need to
+            impress people we don't know whilst not valuing appropriately essentials we enjoy that others wish for
+            those. Why do we truly understand the value of something only when we are on the verge of losing it? What
+            would your stance be if tomorrow you be deprived of clean water, food, your roof, education and so on?
+        </p>
+        <p>
+            But don't get me wrong, my point is not to settle for less but appreciate and be thankful for what you own
+            now and keep striving for anything else you desire. If you are mindful when you give sincere appreciation
+            for something, you will notice a change in your attitude towards the world. When it comes to relationships
+            with your friends and loved ones, don't wait to express what you feel because time waits for nobody. We tend
+            to go through our days taking all these as given until they are not.
+        </p>
+        <p>
+            Why live tomorrow when you can live now? Life is unpredictable as it can change in the blink of an eye. Do
+            make the most of it now because that's all you're guaranteed. Don't lay around doing nothing because you
+            think you'll have plenty of time to get it all done tomorrow.
+        </p>
+        <p>
+            In all situations in life, we have to try and be optimistic and look for the bride side. And the pandemic is
+            no different. Respectfully, I can name several positive outcomes both for humanity and the environment that
+            we encounter daily. Reportedly consumerism has been reduced. Humans realised that so much of our consumer
+            behaviour is about instant gratification, not lasting happiness. Another significant adaptation was to slow
+            down and put less pressure on ourselves. We live in a fast-paced, ever-evolving society and trying to keep
+            up is a demanding task that hinders other areas of our lives. We rush through life by constantly pressuring
+            ourselves to achieve goals and losing focus on what matters most in life, the people around us who make it
+            all worth it. As a result, we started prioritising family and friends again, spending more time with each
+            other and strengthening our bonds.
+        </p>
+        <p>
+
+        </p>
     </div>
 </main>
 <footer>
@@ -137,10 +154,10 @@
             <div class="col-md-4 mb-5">
                 <h3 class="text-white">Navigation</h3>
                 <hr>
-                <a class="flink slider" href="index.html">HOME</a>
-                <a class="flink slider" href="portfolio.html">PORTFOLIO</a>
-                <a class="flink slider" href="about.html">ABOUT</a>
-                <a class="flink slider" href="blog.html">BLOG</a>
+                <a class="flink slider" href="../index.html">HOME</a>
+                <a class="flink slider" href="../portfolio.html">PORTFOLIO</a>
+                <a class="flink slider" href="../about.html">ABOUT</a>
+                <a class="flink slider" href="../blog.html">BLOG</a>
             </div>
             <div class="col-md-4 mb-5">
                 <h3 class="text-white">Contact Info</h3>
@@ -219,16 +236,17 @@
     <div id="go-up" class="go-up">
         <!--<img class="go-up-img lazyload" data-src="images/angle-double-up-solid.svg" alt="Go up"/>-->
         <picture>
-            <source type="image/webp" srcset="images/angle-double-up-solid.webp">
-            <source type="image/svg" srcset="images/angle-double-up-solid.svg">
+            <source type="image/webp" srcset="../images/angle-double-up-solid.webp">
+            <source type="image/svg" srcset="../images/angle-double-up-solid.svg">
             <img class="go-up-img lazyload" data-src="images/angle-double-up-solid.svg" alt="Go up">
         </picture>
     </div>
 </footer>
 <script id="jquery" defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script defer type="text/javascript" src="js/lazysizes.min.js"></script>
-<script defer type="text/javascript" src="js/bootstrap.min.js"></script>
-<script defer type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
-<script defer type="text/javascript" src="js/main.js"></script>
+<script defer type="text/javascript" src="../js/lazysizes.min.js"></script>
+<script defer type="text/javascript" src="../js/bootstrap.min.js"></script>
+<script defer type="text/javascript" src="../js/bootstrap.bundle.min.js"></script>
+<script defer type="text/javascript" src="../js/main.js"></script>
+<script defer type="text/javascript" src="../js/progressbar.js"></script>
 </body>
 </html>
